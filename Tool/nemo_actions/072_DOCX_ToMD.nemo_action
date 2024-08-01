@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=DOCX を Markdown に変換 (_N)
+Comment=Microsoft Word 形式の文書（*.docx）を Markdown 形式（*.md）に変換します
+Exec=/path/to/Conversion/072_DOCX_ToMD.sh %F
+Icon-Name=conversion_path
+Selection=notnone
+Extensions=docx;
+Terminal=true

@@ -1,0 +1,11 @@
+[Nemo Action]
+Active=true
+Name=モノクロ 1-bit 形式の PNG に変換 (_M)
+Comment=RGBAチャンネルを消して白か黒の画像にすることで、ファイルサイズを縮小します。
+Order=2
+Exec=/path/to/Conversion/050_ToMonochromePNG.sh %F
+Icon-Name=conversion_path
+Selection=notnone
+Extensions=png;webp;jpg;jpeg;
+Terminal=true
+

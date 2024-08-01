@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=SASS を CSS に変換 (_N)
+Comment=Syntactically Awesome 形式のインデント記法のスタイルシート（*.sass）を Cascading Style Sheets 形式（*.css）に変換します
+Exec=/path/to/Conversion/020_SASS_ToCSS.sh %F
+Icon-Name=conversion_path
+Selection=notnone
+Extensions=sass;
+Quote=double
+Terminal=true

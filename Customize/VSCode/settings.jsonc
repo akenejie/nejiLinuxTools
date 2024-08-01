@@ -1,0 +1,182 @@
+{
+	// 表示スタイル
+	"window.titleBarStyle": "custom",
+	"window.menuBarVisibility": "visible",
+	"window.commandCenter": false,
+	"editor.minimap.enabled": false,
+	"workbench.sideBar.location": "right",
+	"editor.glyphMargin": false, // ブレークポイントの非表示→言語によって使い分ける
+	"breadcrumbs.enabled": false, // パンくずリストの非表示
+	"editor.fontFamily": "'MyricaM M','Droid Sans Mono', 'monospace'",
+	"editor.renderWhitespace": "all", // 空白文字の表示
+	"window.zoomLevel": -1.22390108574154, // 80% にしたい → log_1.2(0.8) を指定する : つまり、レベル1で1.2倍の対数Zoom
+	"editor.cursorWidth": 3, // 2,
+	"editor.fontSize": 18, // 14.4,
+	"terminal.integrated.fontSize": 18, // 14.4,
+  "editor.scrollBeyondLastLine": false, // スクロールの最後の位置
+  "editor.padding.bottom": 50, // スクロールの最後の位置
+	"apc.electron": {
+		"transparent": true,
+		"titleBarStyle": "hiddenInset",
+		"opacity": 0.5,
+		"visualEffectState": "active",
+		//"frame": true,
+	},
+	"apc.imports": [
+		"file:///path/to/Customize/VSCode/customize.css",
+		"file:///path/to/Customize/VSCode/customize.js",
+	],
+	"vscode_custom_css.imports": [
+		"file:///path/to/Customize/VSCode/customize.css",
+		"file:///path/to/Customize/VSCode/customize.js",
+	],
+	// 緑のテーマにする
+	"workbench.colorTheme": "Default Light Modern",
+	//"workbench.colorTheme": "Default Dark Modern",
+	"workbench.colorCustomizations": {
+		"editor.selectionBackground": "#8becd4",
+		"editor.selectionHighlightBackground": "#b9fdec80",
+		"selection.background": "#8becd4",
+		"button.background": "#009670",
+		"button.hoverBackground": "#00795a",
+		"focusBorder": "#009670",
+		"tab.activeBorderTop": "#009670",
+		"badge.background": "#009670",
+		"activityBar.activeBorder": "#009670",
+		"activityBarBadge.background": "#009670",
+		"textLink.foreground": "#009670",
+		"textLink.activeForeground": "#009670",
+		"panelTitle.activeBorder": "#009670",
+		"inputOption.activeBorder": "#009670",
+		"editorLineNumber.foreground": "#adadad",
+		"editorLineNumber.activeForeground": "#005f47",
+		//"editorGutter.background": "#f2f2f2",
+		//"editorGutter.background": "#ff0000",
+		//"editor.lineHighlightBackground": "#fcfaed",
+		"list.focusAndSelectionOutline": "#009670",
+		"editorWarning.foreground": "#AA9900",
+		"editorInfo.foreground": "#6f00ffa0",
+		"editorOverviewRuler.infoForeground": "#d1adff",
+		"menu.selectionBackground": "#eee",
+		"menu.selectionForeground": "#000",
+		"titleBar.activeForeground": "#1e1e1e",
+		"statusBar.background": "#f5f5f5",
+		"statusBar.noFolderBackground": "#f5f5f5",
+		"statusBar.border": "#dcdcdc",
+		"statusBarItem.remoteBackground": "#f5f5f5",
+		"statusBarItem.remoteForeground": "#00795a",
+	},
+	// システム
+	"editor.accessibilitySupport": "off", // スクリーンリーダー用
+	"workbench.startupEditor": "none", // VSCode起動時に自動起動するエディタ
+	"workbench.editor.empty.hint": "hidden", // 空白のエディタにヒントを非表示
+	"security.workspace.trust.untrustedFiles": "open", // ウィンドウを信頼する
+	"security.workspace.trust.enabled": false,
+	"window.openWithoutArgumentsInNewWindow": "on", // 常に空の状態でウィンドウを立ち上げる
+	"window.restoreWindows": "none", // 前回のウィンドウを復元しない
+	// 全言語共通
+	"editor.indentSize": 2,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	// 文字数表示
+	"wordcounter.include_eol_chars": false,
+	"wordcounter.side.left": [],
+	"wordcounter.text.char": "文字",
+	"wordcounter.text.chars": "文字",
+	"wordcounter.text.line": "行",
+	"wordcounter.text.lines": "行",
+	"wordcounter.text.word": "単語",
+	"wordcounter.text.words": "単語",
+	"wordcounter.text.delimiter": "　",
+	"wordcounter.text.word_delimiter": "",
+	"wordcounter.side.right": [ "char", "word", "line" ],
+	"cSpell.userWords": [],
+	"cSpell.customDictionaries": {
+		"custom-dictionary-user": {
+			"name": "custom-dictionary-user",
+			"path": "~/.cspell/custom-dictionary-user.txt",
+			"addWords": true,
+			"scope": "user"
+		}
+	},
+	// PUG
+	"pugFormatter.tabSize": 2,
+	// SASS
+	"[sass]": { "editor.defaultFormatter": "syler.sass-indented", },
+	"sass.disableAutoIndent": true,
+	"sassFormat.indent": 2,
+	"sass.format.enabled": false,
+	"files.associations": { "*.sass": "sass" },
+	"stylelint.snippet": [ "scss", "css", "postcss", "stylus" ],
+	"stylelint.validate": [ "sass" ],
+	"stylelint.customSyntax": "sugarss",
+	// "emmet.includeLanguages": { "sass": "html" },
+	// LaTeX
+	"[tex]": { "editor.suggest.snippetsPreventQuickSuggestions": false, },
+	"[latex]": { "editor.suggest.snippetsPreventQuickSuggestions": false, },
+	"[bibtex]": { "editor.suggest.snippetsPreventQuickSuggestions": false, },
+	"latex-workshop.latex.recipes": [
+		{
+			"name": "lualatex",
+			"tools": [ "lualatex" ]
+		}
+	],
+	"latex-workshop.latex.tools": [
+		{
+			"name": "lualatex",
+			"command": "lualatex",
+			"args": [ "--cmdx", "-file-line-error", "-synctex=1", "-interaction=nonstopmode", "-halt-on-error", "%DOC%" ],
+			"env": {}
+		}
+	],
+	"latex-workshop.bibtex-format.tab": "tab",
+	"latex-workshop.linting.chktex.enabled": true,
+	"latex-workshop.linting.run": "onType",
+	"latex-workshop.linting.chktex.exec.args": [ "-wall", "-n22", "-n30", "-e16", "-q", "-n19", "-n24", "-n26", "-n8", "-n1", "-n46", "-n36", "-n3", "-n40", "-n44", "-n2", "-n21", ],
+	"latex-workshop.intellisense.package.enabled": true,
+	"workbench.editorAssociations": {
+		"*.pdf": "latex-workshop-pdf-hook"
+	},
+	// Python
+	"[python]": {
+		"editor.glyphMargin": true, // ブレークポイント
+	},
+	"launch": {
+		"configurations": [
+			{
+				"name": "Python",
+				"type": "debugpy",
+				"request": "launch",
+				"postDebugTask": "toggleSidebar",
+				"program": "${file}",
+				"console": "integratedTerminal",
+			},
+			{
+				"name": "Bash Debug",
+				"type": "bashdb",
+				"request": "launch",
+				"postDebugTask": "toggleSidebar",
+				"program": "${file}",
+			}
+		],
+		"compounds": []
+	},
+	"tasks": {
+		"tasks": [
+			{
+				"label": "toggleSidebar",
+				"type": "shell",
+				"command": "${command:workbench.action.toggleSidebarVisibility}"
+			}
+		]
+	},
+	"debug.openDebug": "openOnSessionStart",
+	"liveshare.focusBehavior": "prompt",
+	"liveshare.joinDebugSessionOption": "Prompt",
+	"wordDivider.locale": "ja",
+	"liveshare.accessibility.voice": "ja-JP-Nanami",
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"workbench.activityBar.location": "bottom",
+	"window.customTitleBarVisibility": "auto",
+	"workbench.editor.languageDetection": false,
+}

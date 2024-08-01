@@ -1,0 +1,102 @@
+.nemo-window
+	toolbar.primary-toolbar
+		entry, searchentry
+			min-height: 0
+			margin: 0
+			padding: 0
+		> toolitem > box
+			margin: 0
+			padding: 0
+			button
+				margin: 0
+				padding: 0 2px
+	> grid > widget:last-child
+		margin: 0
+		padding: 0
+		border-width: 0
+		> .toolbar
+			>
+				statusbar > frame > box
+					margin: -100px
+					padding: 0
+					font-size: 81%
+				label *
+					margin: 0
+					padding-top: 0
+					padding-bottom: 0
+				button
+					margin: 0
+					padding: 0
+					min-height: 16px
+					min-width: 16px
+				scale
+					margin: 0
+					padding: 0
+					min-height: 8px
+					slider
+						margin: -7px
+						min-height: 13px
+						min-width: 13px
+					trough
+						padding: 2px
+					fill, highlight
+						margin: -2px
+						padding: 1px
+			margin: 0
+			padding: 0
+			min-height: 18px
+			border-width: 0
+	.sidebar .view
+		font-size: 90%
+
+treeview > header > button
+	//background-color: #f9f9f9
+	background-image: -gtk-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f2f2))
+	min-height: 18px
+	padding: 0 5px
+	font-weight: normal
+	border-bottom: 0
+
+.path-bar
+	&, *
+		margin: 0 0
+		padding: 0 0
+		min-width: 0
+		min-height: 0
+	button
+		font-size: 90%
+		font-weight: normal
+		padding: 0 2px
+
+
+
+
+menubar, .menubar
+	padding: 0
+
+menubar > menuitem, .menubar > menuitem
+	min-height: 18px
+	padding: 1px 6px
+menu menuitem, .menu menuitem, .context-menu menuitem
+	min-height: 16px
+	min-width: 40px
+	padding: 3px 8px
+menuitem
+	check, radio
+		min-height: 12px
+		min-width: 12px
+
+dialog button, messagedialog button
+	padding-left: 6px
+	padding-right: 6px
+	padding-top: 2px
+	padding-bottom: 3px
+
+.Code
+	border-radius: 10px
+
+//.Audacious
+toolbar button
+	padding: 2px
+	min-width: 10px
+	min-height: 10px

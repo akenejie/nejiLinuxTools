@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=AIで画像を拡大 (_X)
+Comment=Real-ESRGAN を用いて画像を拡大します
+Exec=/path/to/Conversion/073_Image_AI_Expand.sh %F
+Icon-Name=conversion_path
+Selection=notnone
+Extensions=png;webp;jpg;jpeg;
+Terminal=true
+

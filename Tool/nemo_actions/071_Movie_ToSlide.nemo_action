@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=発表動画をスライド分割 (_M)
+Comment=フレーム毎の差分を分析し、類似画像のまとまりを同一スライドと解釈して連番画像にします
+Exec=/path/to/Conversion/071_Movie_ToSlide.sh %F
+Icon-Name=extract-archive
+Selection=notnone
+Extensions=mp4;
+Terminal=true

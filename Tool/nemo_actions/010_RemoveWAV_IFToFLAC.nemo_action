@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=*.flac がある *.wav を削除
+Comment=同じディレクトリに同じベース名 +「.flac」という名前のファイルが存在する .wav ファイルを削除します
+Exec=/path/to/Conversion/015_Remove_WAV_IF_FLAC.sh %F
+Icon-Name=edit-delete-symbolic
+Selection=m
+Extensions=wav;
+Terminal=true

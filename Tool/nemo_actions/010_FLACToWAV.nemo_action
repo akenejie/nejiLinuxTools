@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=FLAC を WAV に変換 (_N)
+Comment=Free Lossless Audio Codec 形式の音声（*.flac）を Waveform Audio 形式（*.wav）に変換します
+Exec=/path/to/Conversion/011_FLAC_ToWAV.sh %F
+Icon-Name=conversion_path
+Selection=notnone
+Extensions=flac;
+Terminal=true

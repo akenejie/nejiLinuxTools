@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=音楽を楽器別に分離 (_M)
+Comment=Demucs を用いて音楽をボーカル・ドラム・ベース・その他に分離します
+Exec=/path/to/Conversion/017_AudioDemucs.sh %F
+Icon-Name=extract-archive
+Selection=notnone
+Extensions=wav;mp3;flac
+Terminal=true

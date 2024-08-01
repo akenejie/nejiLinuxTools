@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=WebP を PNG に変換 (_N)
+Comment=WebP 形式の画像（*.webp）を Portable Network Graphics 形式（*.png）に変換します
+Exec=/path/to/Conversion/001_WEBP_ToPNG.sh %F
+Icon-Name=conversion_path
+Selection=notnone
+Extensions=webp;
+Quote=double
+Terminal=true

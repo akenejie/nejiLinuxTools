@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=SVG を PDF に変換 (_N)
+Comment=Scalable Vector Graphics 形式のベクトル画像（*.svg）を Portable Document Format 形式の1ページ文書（*.pdf）に変換します
+Exec=/path/to/Conversion/031_SVG_ToPDF.sh %F
+Icon-Name=conversion_path
+Selection=notnone
+Extensions=svg;
+Terminal=true

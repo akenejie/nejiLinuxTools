@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=中身をコピー (_N)
+Comment=ファイルの内容を文字列形式でクリップボードにコピーします
+Exec=/path/to/FileScripts/101_Text_ContentCopyClipboard.sh %F
+Icon-Name=edit-copy-symbolic
+Selection=one
+Extensions=txt;log;md;tex;html;pug;css;sass;scss;conf;csv;json;xml;sh;c;cpp;cs;vb;py;nemo_action;
+Terminal=true

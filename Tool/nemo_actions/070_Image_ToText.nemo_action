@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=OCR してテキストファイルに変換 (_L)
+Comment=画像を AI で文字認識してテキストファイルに変換します
+Exec=/path/to/Conversion/070_Image_ToText.sh %F
+Icon-Name=conversion_path
+Selection=notnone
+Extensions=png;webp;jpg;jpeg;
+Terminal=true
