@@ -1,2 +1,3 @@
 # nejiLinuxTools
-Linux customization files
+Linux 上で、Nemo と VSCode を使用する人のための、ファイル変換ツール群とスタイルシートです。
+画像・音声・動画のファイル形式の変換と、動画のスライド単位分割、音声の楽器別分割、画像の拡大やOCR等を使いやすくするためのシェルスクリプトが含まれます。
