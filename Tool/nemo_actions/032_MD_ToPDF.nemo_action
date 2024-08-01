@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Markdown を PDF に変換 (_N)
+Comment=Markdown 形式の文書（*.md）を Portable Document Format 形式の1ページ文書（*.pdf）に変換します
+Exec=/path/to/Conversion/032_MD_ToPDF.sh %F
+Icon-Name=conversion_path
+Selection=notnone
+Extensions=md;
+Terminal=true
