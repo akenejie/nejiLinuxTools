@@ -1,0 +1,29 @@
+% Word の「やや狭い」余白
+\usepackage[
+	% 上下余白 25.4 mm 、左右余白 19.05 mm
+	margin=19.05truemm, top=25.4truemm, bottom=30.4truemm,
+	% ヘッダーとフッターの位置調整
+	headsep=7truemm, footskip=10truemm]{geometry}
+
+% ページ番号を右下にする
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\ifdefined\chapter
+	% chapterコマンドを再定義する
+	\let\oldchapter\chapter % 元のchapterコマンドを保存する
+	\renewcommand{\chapter}{
+		\oldchapter % 元のchapterコマンドを実行する
+		\thispagestyle{fancy} % 現在のページのページスタイルをfancyに変更する
+	}
+\fi
+\ifdefined\maketitle
+	\let\oldmaketitle\maketitle
+	\renewcommand{\maketitle}{
+		\oldmaketitle
+		\thispagestyle{fancy}
+	}
+\fi
+
